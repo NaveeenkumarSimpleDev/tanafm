@@ -1,0 +1,11 @@
+.hot__deals__item {
+  background: rgb(36, 17, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 17, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(231, 11, 0, 0.700717787114846) 94%,
+    rgba(255, 0, 0, 0.6306897759103641) 100%
+  );
+  color: white;
+}

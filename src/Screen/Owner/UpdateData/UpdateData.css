@@ -1,0 +1,34 @@
+.update-data {
+  max-width: 30rem;
+
+  margin: 0 auto;
+}
+
+.update-data form {
+  display: grid;
+  gap: 1rem;
+}
+.update-data form div {
+  display: grid;
+}
+.update-data article {
+  display: flex;
+  gap: 1rem;
+}
+.update-data h4 {
+  margin-bottom: 0.5rem;
+}
+
+.update-data button {
+  width: 5rem;
+  padding: 0.5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}

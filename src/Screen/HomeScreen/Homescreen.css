@@ -1,0 +1,21 @@
+.homeScreen {
+  display: grid;
+  gap: 2rem;
+}
+.homeScreen .items {
+  margin: auto;
+}
+@media (width>768px) {
+  .homeScreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media (width>1024px) {
+  .homeScreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+}

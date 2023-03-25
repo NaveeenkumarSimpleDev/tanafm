@@ -1,0 +1,70 @@
+.details {
+  width: fit-content;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  max-width: 30rem;
+}
+.details .details__card {
+  display: grid;
+  gap: 1rem;
+}
+.details .poster-img {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+}
+.poster-img a {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.screenshots {
+  width: 100%;
+  min-height: 12rem;
+  margin: 1rem 0;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.details .poster-img img {
+  width: 16rem;
+  height: 8rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.details__card h1 {
+  line-height: 1.2;
+}
+.details__card p {
+  font-size: 1.1rem;
+  margin-top: 3px;
+}
+
+.details a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+.details .tutorials ol a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.details .tutorials li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.details ol {
+  margin-bottom: 1rem;
+}
+.details .tutorials ol img {
+  width: 10rem;
+  height: 5rem;
+  margin-top: 0.75rem;
+}

@@ -1,0 +1,11 @@
+.category-name {
+  background-color: rgb(255, 0, 43);
+  padding: 0.25rem 1.25rem;
+  width: fit-content;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 2rem;
+  outline: none;
+  text-transform: uppercase;
+}
