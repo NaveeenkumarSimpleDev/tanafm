@@ -82,7 +82,7 @@ a {
   padding-top: 12rem;
 }
 
-@media (width<768px) {
+@media screen and (max-width:768px) {
   .app {
     padding: 8rem 1rem;
   }
