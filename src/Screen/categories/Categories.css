@@ -14,16 +14,16 @@
 .hot-deals {
   background: #000;
 }
-section {
+.category__page section {
   border-bottom: 1px solid #000;
   overflow-x: scroll;
   padding-bottom: 2rem;
 }
 
-section::-webkit-scrollbar {
+.category__page section::-webkit-scrollbar {
   display: none;
 }
 
-section:not(:first-child) {
+.category__page section:not(:first-child) {
   margin-top: 2rem;
 }
