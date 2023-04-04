@@ -7,8 +7,6 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Categories from "./Screen/categories/Categories";
 import HotDeals from "./Screen/HotDeals/HotDeals";
-import Login from "./Screen/Owner/UserLogin/Login";
-import UpdateData from "./Screen/Owner/UpdateData/UpdateData";
 import getData from "./api/getData";
 
 function App() {
@@ -32,7 +30,12 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<HomeScreen products={data} searchQuery={searchQuery} />}
+          element={
+            <HomeScreen
+              products={data}
+              searchQuery={searchQuery}
+            />
+          }
         />
         <Route path="/detail" element={<Details />} />
         <Route
@@ -40,8 +43,6 @@ function App() {
           element={<Categories products={data} searchQuery={searchQuery} />}
         />
         <Route path="/hot-deals" element={<HotDeals products={data} />} />
-        <Route path="/Owner-login" element={<Login />} />
-        <Route path="/Update-data" element={<UpdateData />} />
       </Routes>
     </div>
   );

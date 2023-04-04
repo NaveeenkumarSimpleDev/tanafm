@@ -6,7 +6,7 @@ import ContextProvider from "./Context/ContextProvider";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/" >
       <ContextProvider>
         <App />
       </ContextProvider>

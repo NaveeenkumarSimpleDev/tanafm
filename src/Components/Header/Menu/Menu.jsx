@@ -12,26 +12,26 @@ function Menu() {
         <ul>
           <li>
             <Link to="/">
-              <a>Home</a>
+              Home
             </Link>
           </li>
           <li>
             <Link to="/hot-deals">
-              <a>Hot Deals 🔥</a>
+              Hot Deals 🔥
             </Link>
           </li>
           <li>
             <Link to="/categories">
-              <a>Categories</a>
+              Categories
             </Link>
           </li>
-          {ctx.ownerLogin && (
+          {/* {ctx.ownerLogin && (
             <li>
               <Link to="/Update-data">
-                <a>Update</a>
+                Update
               </Link>
             </li>
-          )}
+          )} */}
         </ul>
       </nav>
     </div>
